@@ -5,7 +5,9 @@
     margin: 0px;
     padding: 0px;
 }
-
+.text-color{
+    color:  #727272;
+}
 /* starting style */
 
 .nav-title{
@@ -36,4 +38,54 @@
     font-style: normal;
     font-weight: 500;
     cursor: pointer;
+}
+/* nav bar ends */
+
+.header{
+    background: rgba(255, 144, 14, 0.10);
+    height: 800px;
+}
+.header-title{
+    color:  #131313;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+.header-des{
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    width: 550px;
+    margin: 20px auto;
+    text-align: center;
+}
+.btn{
+    border-radius: 5px;
+    background: #FF900E;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    padding: 15px 25px;
+}
+.header-content{
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+}
+.header-img{
+    height: 400px;
+    width: 800px;
+    text-align: center;
+}
+.img-container{
+    display: felx;
+    align-items: center;
+    justify-content: center;
+}
+.banner{
+    max-width:800px ;
+    margin: 0px auto;
 }
